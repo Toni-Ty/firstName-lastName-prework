@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: #0da6ba;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.div-1 {
+  color: white;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.div-2 {
+  margin-top: 300px;
+  text-align: center;
+}
+
+.link {
+  color: white;
+  font-weight: bold;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  display: inline;
+  text-align: center;
+  margin-left: 45%;
+}
