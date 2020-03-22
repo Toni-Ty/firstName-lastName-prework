@@ -1,25 +1,27 @@
- .container {
-    background-color: #ffffff;
-
- }
- .nav-active {
-    background-color: #4aaaa5;
-    color: white;
+.container {
+  background-color: #ffffff;
+}
+.nav-active {
+  background-color: #4aaaa5;
+  color: white;
 }
 
 .nav-links {
-    color: #777777;
-    float: right;
+  color: #777777;
+  float: right;
 }
 
 h2 {
-    color: #4aaaa5;
+  color: #4aaaa5;
+  margin-bottom: 20px;
+  font-weight: 650;
 }
 
 .contact-row {
-    border-bottom: 4px solid #cccccc;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #cccccc;
 }
 
 #tab-border {
-    border-color: #cccccc;
+  border-color: #cccccc;
 }
