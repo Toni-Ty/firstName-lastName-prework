@@ -1,0 +1,25 @@
+ .container {
+    background-color: #ffffff;
+
+ }
+ .nav-active {
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.nav-links {
+    color: #777777;
+    float: right;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.contact-row {
+    border-bottom: 4px solid #cccccc;
+}
+
+#tab-border {
+    border-color: #cccccc;
+}
