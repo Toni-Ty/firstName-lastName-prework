@@ -24,4 +24,17 @@ h2 {
 
 #tab-border {
   border-color: #cccccc;
+  line-height: 1.6;
+  font: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.float-left {
+    width: 345px;
+}
+
+.navys{
+    padding-left: 1300px;
+    padding-right: 50px;
+}
+.navys li {
+    float: left;
 }
