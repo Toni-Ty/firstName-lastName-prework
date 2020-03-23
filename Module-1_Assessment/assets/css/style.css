@@ -1,5 +1,9 @@
-.container {
-  background-color: #ffffff;
+.main-container {
+  background-color: #777777;
+
+}
+.container{
+  background-color:  #4aaaa5;
 }
 .nav-active {
   background-color: #4aaaa5;
@@ -20,6 +24,10 @@ h2 {
 .contact-row {
   margin-bottom: 20px;
   border-bottom: 4px solid #cccccc;
+}
+
+.main-image {
+  margin-left: 15px;
 }
 
 #tab-border {
