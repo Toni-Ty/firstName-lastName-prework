@@ -1,9 +1,16 @@
+
+body{
+  background-color: #cccccc;
+
+}
 .main-container {
   background-color: #777777;
 
 }
 .container{
-  background-color:  #4aaaa5;
+  padding-top: 35px;
+  background-color:  #ffffff;
+  
 }
 .nav-active {
   background-color: #4aaaa5;
@@ -30,10 +37,15 @@ h2 {
   margin-left: 15px;
 }
 
+.tab-content {
+  line-height: 1.7;
+  color: #777777;
+}
+
 #tab-border {
   border-color: #cccccc;
   line-height: 1.6;
-  font: Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .float-left {
     width: 345px;
