@@ -1,8 +1,6 @@
-
-.container{
+.container {
   padding-top: 35px;
-  background-color:  #ffffff;
-  
+  background-color: #ffffff;
 }
 .nav-active {
   background-color: #4aaaa5;
@@ -20,7 +18,6 @@
 h1 {
   color: #4aaaa5;
   border-bottom: 2px solid #cccccc;
-
 }
 
 h2 {
@@ -45,38 +42,32 @@ h2 {
 #tab-border {
   border-color: #cccccc;
   line-height: 1.6;
-  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 .float-left {
-    width: 345px;
+  width: 345px;
 }
 
-.navys{
-    padding-left: 1300px;
-    padding-right: 50px;
+.navys {
+  padding-left: 1300px;
+  padding-right: 50px;
 }
 .navys li {
-    float: left;
+  float: left;
 }
 
-/* #sticky-footer {
-  flex-shrink: none;
-} */
-/* .container-footer {
-  background-color: #666666;
-} */
 div.col-md-12.top {
+  border-top: 10px solid #4aaaa5;
   background-color: #666666;
   position: absolute;
-  bottom: 0;
   height: 60px;
-
+  color: white;
+  margin-top: auto;
 }
 
 div.col-md-12.bottom {
-  background-color: #666666;
   position: absolute;
-  bottom: 0;
   height: 60px;
-
+  /* padding-top: 30px; */
 }
+
