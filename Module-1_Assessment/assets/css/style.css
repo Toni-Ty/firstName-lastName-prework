@@ -1,12 +1,4 @@
 
-body{
-  background-color: #cccccc;
-
-}
-.main-container {
-  background-color: #777777;
-
-}
 .container{
   padding-top: 35px;
   background-color:  #ffffff;
@@ -15,11 +7,20 @@ body{
 .nav-active {
   background-color: #4aaaa5;
   color: white;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 60px;
 }
 
 .nav-links {
   color: #777777;
   float: right;
+}
+
+h1 {
+  color: #4aaaa5;
+  border-bottom: 2px solid #cccccc;
+
 }
 
 h2 {
@@ -36,8 +37,7 @@ h2 {
 .main-image {
   margin-left: 15px;
 }
-
-.tab-content {
+.p-font {
   line-height: 1.7;
   color: #777777;
 }
@@ -57,4 +57,26 @@ h2 {
 }
 .navys li {
     float: left;
+}
+
+/* #sticky-footer {
+  flex-shrink: none;
+} */
+/* .container-footer {
+  background-color: #666666;
+} */
+div.col-md-12.top {
+  background-color: #666666;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+
+}
+
+div.col-md-12.bottom {
+  background-color: #666666;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+
 }
