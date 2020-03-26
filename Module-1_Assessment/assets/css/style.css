@@ -4,9 +4,9 @@ body {
   /* height: 100%; */
 }
 
-.content-container {
+/* .content-container {
   width: 960px;
-}
+} */
 
 .container {
   margin-top: 35px;
@@ -18,15 +18,9 @@ body {
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
-
-.page-header {
-  margin-left: 475px;
-}
-
-/* .container-active {
-    margin-left: 475px;
-} */
 .nav-active {
+  margin-left: 475px;
+
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: white;
   background-color: #4aaaa5;
@@ -41,11 +35,20 @@ body {
   /* padding-bottom: 60px; */
 }
 
-
 .nav-links {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.navys {
+  padding-left: 1300px;
+  margin-right: 150px;
+  margin-top: -3%;
+  color: #777777;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
 .jumbotron {
   /* margin-top: 55px; */
   background-color: #ffffff;
@@ -57,12 +60,6 @@ h1 {
   font-weight: bolder;
   border-bottom: 2px solid #cccccc;
 }
-
-/* h2 {
-  color: #4aaaa5;
-  margin-bottom: 20px;
-  font-weight: 650;
-} */
 
 /* contact.html */
 .contact-row {
@@ -80,12 +77,10 @@ h1 {
   margin-right: 20px;
 }
 
-.navys {
-  padding-left: 1300px;
-  padding-right: 50px;
-  margin-top: -3%;
-  color: #777777;
-}
+/* .navys {
+float: right;
+ 
+} */
 
 /* .navys li {
   float: left;
