@@ -53,11 +53,6 @@ h1 {
   font-weight: bolder;
 }
 
-/* contact.html */
-.contact-row {
-  margin-bottom: 20px;
-  border-bottom: 2px solid #cccccc;
-}
 .p-border {
   border-top: 2px solid #cccccc;
 }
@@ -101,14 +96,11 @@ float: right;
 #sticky-footer {
   margin-top: 200px;
   height: 60px;
-
   background-color: #666666;
   flex-shrink: none;
   color: #ffffff;
   border-top: 10px solid #4aaaa5;
 }
-
- */
 
 div.col-md-12.foot {
   border-top: 10px solid #4aaaa5;
@@ -122,12 +114,28 @@ div.col-md-12.foot {
   margin-top: 222px;
 }
 
-/* 
-div.col-md-12.bottom {
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-  padding-top: 30px;
-} */
+/* contact.html form*/
+.contact-row {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #cccccc;
+}
+
+.submit-btn {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  margin-left: 15px;
+}
+
+  .form-name {
+    margin-left: -15px;
+  }
+
+  .form-email {
+    margin-left: -1px;
+    width: 550px;
+  }
+
+  .form-message {
+    margin-left: 15px;
+    width: 1000x;
+  }
