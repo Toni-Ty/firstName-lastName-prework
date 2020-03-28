@@ -136,8 +136,9 @@ div.col-md-12.foot {
   }
 
   .form-message {
-    margin-left: 15px;
-    width: 800x;
+    margin-left: -1px;
+    /* width: 800x; */
+    
   }
 
 /* Portfolio */
