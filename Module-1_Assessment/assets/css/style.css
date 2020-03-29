@@ -94,6 +94,7 @@ float: right;
 
 
 #sticky-footer {
+  padding-top: 20px;
   margin-top: 200px;
   height: 60px;
   background-color: #666666;
@@ -142,6 +143,7 @@ float: right;
   }
 
   #footer{
+    padding-top: 20px;
     margin-top: 110px;
     height: 60px;
     background-color: #666666;
