@@ -1,14 +1,16 @@
 body {
   background-color: skyblue;
 }
-.img-thumbnail{
-    width: 90%;
-    border-left: darkgoldenrod solid 5px;
-    border-right: darkgoldenrod solid 5px;
-  }
+.img-thumbnail {
+  width: 90%;
+  border-left: darkgoldenrod solid 5px;
+  border-right: darkgoldenrod solid 5px;
+}
 
-h1, h2, p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1,
+h2,
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: larger;
   color: black;
 }
