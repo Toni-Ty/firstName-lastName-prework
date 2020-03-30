@@ -102,7 +102,7 @@ function makeGuessPopulateGuessState(){
 
     else {
         
-        playAgain = confirm("Would you like to Play again?");
+        playAgain = confirm("Would you like to play again?");
         
         reset(playAgain);
         
@@ -172,7 +172,7 @@ function checkGuess(letter){
     else {
         wrongGuesses = wrongGuesses + 1;
         updatePage();
-        playAgain = confirm("You lost! Want to play again?");
+        playAgain = confirm("Sorry but you lost, would you liketo play again?");
         reset(playAgain);
     }
     
@@ -193,7 +193,7 @@ function wonGame() {
     if (computerGuess === guessState.join("")) {
         wonTheGame = true;
         computerMadeGuess = false;
-        console.log("You win! ")
+        console.log("You win!")
         computerGuessCorrect.push(computerGuess)
         wordsGuessed = wordsGuessed + 1;
         usedLettersArr = [];
@@ -225,7 +225,7 @@ function reset(someBoolean) {
         computerMadeGuess = false;
         //need to update picture as well;
         updatePage();
-        $("#pictureOfLastGuessed").attr("src", "assets/images/placeholder.png");
+        $("#pictureOfLastGuessed").attr("src", "assets/images/winner-1548239_640.jpg");
     }
     else {
         alert("Thank you for playing");
@@ -242,7 +242,7 @@ function reset(someBoolean) {
        //creates a an an audio tag
         var audioElement = document.createElement("audio");
         //sets that audio tag's source to be the Make IT so mp3
-        audioElement.setAttribute("src", "assets/audio/makeItSo.mp3");
+        audioElement.setAttribute("src", "assets/sounds/fireworks.xspf");
         //plays the audio
         audioElement.play();
    }
