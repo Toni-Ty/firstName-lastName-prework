@@ -1,19 +1,10 @@
 var selectableWords =          // Word list
     [
-        "FIREARMS",
-        "KNIFE",
-        "SPURS",
-        "HORSETACK",
-        "BANDANNA",
-        "CHAPS",
-        "COWBOYHAT",
-        "COWBOYBOOTS",
-        "GLOVES",
-        "PANTS",
-        "TOBACCO",
-        "BOOKS",
-        "COAT",
-        "KNIFE"
+       "FLORENCE",
+        "PARIS",
+        "MADRID",
+        
+
     ];
 const numberOfTries = 10;
 
