@@ -242,7 +242,7 @@ function reset(someBoolean) {
        //creates a an an audio tag
         var audioElement = document.createElement("audio");
         //sets that audio tag's source to be the Make IT so mp3
-        audioElement.setAttribute("src", "assets/sounds/fireworks.xspf");
+        audioElement.setAttribute("src", "assets/sounds/Firecrack.wav");
         //plays the audio
         audioElement.play();
    }
