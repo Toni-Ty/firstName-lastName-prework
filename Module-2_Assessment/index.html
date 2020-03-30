@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!--imports jQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-    <!--Logic for word guess game-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/javascript/game.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133442962-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-133442962-1"
+    ></script>
+  </head>
 
-</head>
-
-<body>
-
-
+  <body>
     <div class="container">
-
-        <div class="row">
-            <!-- <div class="col-md-1 side"></div> -->
-            <div class="col-md-10">
-
-                <img src="assets/images/colosseum-690384_640.jpg" class="img-thumbnail" alt="">
-
-            </div>
-            <!-- <div class="col-sm-5 side"></div> -->
+      <div class="row">
+        <div class="col-md-10">
+          <img
+            src="assets/images/colosseum-690384_640.jpg"
+            class="img-thumbnail"
+            alt="Rome Colosseum"
+          />
         </div>
+      </div>
 
-        <div class="row">
-            <!-- <div class="col-sm-5 side"></div> -->
-            <div class="col-md-8">
-                <!-- <p>Computer's Guess: <span id="computersGuess"></span></p> -->
-                <p>Guess The European City!!</p>
-                <p>Press any key to get started!</p>
-                <br>
-                <h1>Current Game: <span id="currentState"></span></h1>
-                <br>
-                <br>
-                <p>Letters Guessed: <span id="guessedByUser"></span></p>
-                <p>You have <span id="numberOfGuesses">6</span> guesses remaining</p>
-                <!-- <h2>Have you have won the game? <span id="gameStatus"></span></h2> -->
-                <p>You have guessed <span id="wordsGuessed">0</span> words correctly</p>
-                <p>The words you have guessed correctly are: <span id="correctWords">none!</span></p>
-
-            </div>
-            <div class="col-md-2">
-                <img class="img-fluid" id="pictureOfLastGuessed" src="assets/images/winner-1548239_640.jpg">
-            </div>
-            <!-- <div class="col-sm-5 side"></div> -->
+      <div class="row">
+        <div class="col-md-8">
+          <p>Guess The European City!!</p>
+          <p>Press any key to get started!</p>
+          <br />
+          <h1>Current Game: <span id="currentState"></span></h1>
+          <br />
+          <br />
+          <p>Letters Already Guessed: <span id="guessedByUser"></span></p>
+          <p>You have <span id="numberOfGuesses">6</span> guesses remaining</p>
+          <p>
+            You have guessed <span id="wordsGuessed">0</span> words correctly
+          </p>
+          <p>
+            The words you have guessed correctly are:
+            <span id="correctWords">none as of yet!</span>
+          </p>
         </div>
-
+        <div class="col-md-2">
+          <img
+            class="img-fluid"
+            id="imageOfLastGuessed"
+            src="assets/images/winner-1548239_640.jpg"
+          />
+        </div>
+      </div>
     </div>
 
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-133442962-1');
+      gtag("config", "UA-133442962-1");
     </script>
-
-
-</body>
-
+  </body>
 </html>
