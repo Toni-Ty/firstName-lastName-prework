@@ -15,7 +15,7 @@ body {
 }
 .nav-active {
   margin-left: 407px;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Georgia', Times, Times New Roman, serif;
   color: white;
   background-color: #4aaaa5;
   font-weight: bolder;
@@ -23,7 +23,7 @@ body {
 }
 
 .nav-links {
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .nav-ul {
@@ -43,13 +43,13 @@ body {
 h1 {
   padding-bottom: 10px;
   margin-bottom: 25px;
-  font-family: "Georgia", Times, Times New Roman, serif;
+  font-family: 'Georgia', Times, Times New Roman, serif;
   color: #4aaaa5;
   font-weight: bolder;
 }
 
 .p-border {
-  border-top: 2px solid #cccccc;
+  border-top: 2px solid #dddddd;
 }
 
 .lead {
@@ -60,7 +60,7 @@ h1 {
 .p-font {
   line-height: 1.7;
   color: #777777;
-  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .float-left {
@@ -82,7 +82,7 @@ h1 {
 /* contact form*/
 .contact-row {
   margin-bottom: 20px;
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #dddddd;
 }
 
 .submit-btn {
