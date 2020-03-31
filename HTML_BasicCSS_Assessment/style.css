@@ -10,16 +10,16 @@ h1 {
   font-size: 100px;
   text-align: center;
   font-weight: bolder;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 
-.div-1 {
+.upper-left {
   color: white;
   font-weight: bolder;
   text-align: left;
 }
 
-.div-2 {
+.div2-text {
   margin-top: 300px;
   text-align: center;
 }
