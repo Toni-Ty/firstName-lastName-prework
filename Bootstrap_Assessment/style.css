@@ -2,13 +2,17 @@ body {
   background-color: #33d4ff;
 }
 
+.nav-link {
+  font-weight: bolder;
+}
+
 .row-1 {
   margin-top: 300px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .display-1 {
-  color: darkslateblue;
+  color: #e75480;
   font-family: "Charmonman", cursive;
 }
 
