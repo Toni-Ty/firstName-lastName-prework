@@ -9,10 +9,20 @@ Word Guessing Game:
 
 -Select a letter
 
--Try to get the European city for a win!
+-Try to guess the European city for a win!
 
-Game Keeps track of:
+Game keeps track of:
+
 **Number of user guesses remaining
+
 **Letters already used
+
 **Number of wins
+
+## Game Example
+
+If the word is Vienna, it displays like this when the game starts: _ _ _ _ _ _ .
+As the user guesses the correct letters, it reveals them like this: Vie _ _ a.
+
+
 
