@@ -5,6 +5,7 @@ European Cities Theme
 ## Usage
 
 Word Guessing Game:
+
 -Press any key to get started
 
 -Select a letter
