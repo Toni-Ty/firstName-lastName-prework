@@ -22,6 +22,7 @@ Game keeps track of:
 ## Game Example
 
 If the word is Vienna, it displays like this when the game starts: _ _ _ _ _ _ .
+
 As the user guesses the correct letters, it reveals them like this: Vie _ _ a.
 
 
