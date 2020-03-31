@@ -11,6 +11,6 @@ const name = prompt('Please enter a name');
 }
 
 for (let i = 0; i < studentNames.length; i++) {
-  const names = studentNames[i];
-  console.log(names)
+  const name = studentNames[i];
+  console.log(name)
 }
