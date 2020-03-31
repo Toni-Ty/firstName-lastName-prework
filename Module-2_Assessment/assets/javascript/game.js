@@ -75,8 +75,6 @@ function createGuessForGuessState() {
     }
     computerGaveGuess = true;
   } else {
-    playAgain = confirm("Would you like to play again?");
-
     reset(playAgain);
   }
 }
@@ -121,7 +119,6 @@ function checkGuess(letter) {
   } else {
     wrongGuesses = wrongGuesses + 1;
     updatePage();
-    playAgain = confirm("Sorry but you lost, would you like to play again?");
     reset(playAgain);
   }
 }
@@ -157,7 +154,7 @@ function updatePicture(element) {
 }
 
 function reset(someBoolean) {
-  if (someBoolean) {
+   (someBoolean) 
     guessState = [];
     usedLettersArr = [];
     guessWordsArray = [
@@ -181,10 +178,7 @@ function reset(someBoolean) {
       "src",
       "assets/images/winner-1548239_640.jpg"
     );
-  } else {
-    alert("Thank you for playing");
   }
-}
 
 //sound effects at initial game start and for game win
 function playSoundEffect() {
