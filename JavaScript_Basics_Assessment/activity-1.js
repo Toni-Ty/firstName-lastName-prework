@@ -8,7 +8,6 @@ product = 81
 
 // The quotient of 56 and 12
 
-
 let num1 = 56;
 let num2 = 12;
 var quotient = num1 / num2;
@@ -33,14 +32,13 @@ result = infinity
 
 // The sum of string 56 and string 92
 
-
 let string1 = '56';
 let string2 = '92';
 var result = string1 + string2;
 console.log(result);
 result = 5692
 
-// Using any comparison operator you wish on the numbers 42 and 52, make it evaluate to false.
+// Using any comparison operator you wish on the numbers 42 and 52, make it evaluate to false
 
 let num1 = 42;
 let num2 = 52;                   
