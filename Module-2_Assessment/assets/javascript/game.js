@@ -92,7 +92,7 @@ function isMatching(element) {
   }
 }
 
-//Guess state is updated with user guess
+//guess state is updated with user guess
 function updateGuessState(index) {
   var guessWordsArray = guessWords.split("");
   guessState[index] = guessWordsArray[index];
@@ -104,7 +104,7 @@ function checkGuess(letter) {
   var isMatched = false;
   var neverBeenGuessed = validateGuess(letter);
 
-  //Checks for remaining guesses
+  //checks for remaining guesses
   if (wrongGuesses < 5) {
     for (j = 0; j < guessWords.length; j++) {
       if (isMatching(guessWordsArray[j])) {
@@ -125,7 +125,7 @@ function checkGuess(letter) {
     reset(playAgain);
   }
 }
-//Keeps track of user guessed letters
+//keeps track of user guessed letters
 function validateGuess(element) {
   if (usedLettersArr.includes(element)) {
     return true;
@@ -135,7 +135,7 @@ function validateGuess(element) {
   }
 }
 
-// Checks for a win, and creates new word
+//checks for a win, and creates new word
 function wonGame() {
   if (guessWords === guessState.join("")) {
     wonTheGame = true;
@@ -149,7 +149,7 @@ function wonGame() {
   }
 }
 
-//Update image
+//update image
 function updatePicture(element) {
   if (element in imageGallery) {
     $("#imageOfLastGuessed").attr("src", imageGallery[element]);
@@ -186,7 +186,7 @@ function reset(someBoolean) {
   }
 }
 
-// sound effects at initial game start and for game win
+//sound effects at initial game start and for game win
 function playSoundEffect() {
   var audioElement = document.createElement("audio");
   audioElement.setAttribute("src", "assets/sounds/Firecrack.wav");
