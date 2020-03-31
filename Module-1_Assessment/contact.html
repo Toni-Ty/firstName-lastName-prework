@@ -7,16 +7,12 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Contact</title>
 </head>
 
 <body>
-
-  <!-- <form id="contact-form" method="post" action="contact.php" role="form"> -->
-
-  <!-- <div class=content-container> -->
+  <!-- navigation -->
   <div class=container-nav>
-    <!-- <div class="page-header"> -->
     <ul class="nav nav-tabs">
       <li class="nav-item active nav-active">
         <a class="nav-link">Antonique Tyler</a>
@@ -24,23 +20,23 @@
   </div>
   </ul>
 
-  <!-- added nav-items to all li classes to replace navys (navys still there tho ) -->
+
   <ul class="nav nav-tabs nav-ul">
-    <li class="nav-item nav-items">
+    <li class="nav-item">
       <a class="nav-link nav-links">About</a>
     </li>
 
-    <li class="nav-item nav-items">
+    <li class="nav-item">
       <a class="nav-link nav-links">Portfolio</a>
     </li>
 
-    <li class="nav-item nav-items">
+    <li class="nav-item">
       <a class="nav-link nav-links">Contact</a>
     </li>
   </ul>
   </div>
 
-
+  <!-- jumbotron -->
   <div class="container">
     <div class="container-header">
       <div class="jumbotron">
@@ -48,6 +44,7 @@
           <h1>Contact</h1>
         </div>
 
+        <!-- contact form content -->
         <div class="contact-row">
           <div class="col-md-6 col-md-offset-3" id="form_container">
           </div>
@@ -63,7 +60,6 @@
                 <label for="form_name">Name</label>
                 <input id="form_name" type="text" name="name" class="form-control" placeholder="John Smith"
                   required="required" data-error="Firstname is required.">
-                <!-- <div class="help-block with-errors"></div> -->
               </div>
             </div>
             <div class="row">
@@ -72,7 +68,6 @@
                   <label for="form_email">Email</label>
                   <input id="form_email" type="email" name="email" class="form-control" placeholder="example@gmail.com"
                     required="required" data-error="Valid email is required.">
-                  <!-- <div class="help-block with-errors"></div> -->
                 </div>
               </div>
               <div class="row form-message">
@@ -81,7 +76,6 @@
                     <label for="form_message">Message</label>
                     <textarea id="form_message" name="message" class="form-control" rows="8" required="required"
                       data-error="Please, leave us a message."></textarea>
-                    <!-- <div class="help-block with-errors"></div> -->
                   </div>
                 </div>
                 <div class="col-md-12">
@@ -94,8 +88,9 @@
       </div>
     </div>
   </div>
+</form>
 
-  </form>
+  <!-- footer -->
   <footer id="footer">
     <div class="container text-center">
       <small class="footer-symbol">Copyright &copy;</small>
